@@ -4,4 +4,4 @@
 
 #+end_src
 
-- I am a web dev, security researcher, cat dad, and cyborg.
+- I am a Web Developer, Security Researcher, Cat Dad, and Cyborg.
