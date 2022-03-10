@@ -1,8 +1,6 @@
-* Hi, name is Marcos.
-
 #+begin_src bash
 
-            while true; do echo hi; sleep .69; done
+            while true; do echo "hi my name is marcos"; sleep .69; done
 
 #+end_src
 
