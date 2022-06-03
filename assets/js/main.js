@@ -3,28 +3,23 @@ document.addEventListener("DOMContentLoaded", function() {
     particlesJS("particles-js", {
         particles: {
             number: {
-                value: 50,
+                value: 40,
                 density: {
                     enable: !0,
                     value_area: 800
                 }
             },
             color: {
-                value: "#000000"
+                value: "#000"
             },
             shape: {
                 type: "circle",
                 stroke: {
-                    width: 6,
+                    width: 0,
                     color: "#000"
                 },
-                circle: {
-                    nb_sides: 3
-                },
-                image: {
-                    src: "img/github.svg",
-                    width: 100,
-                    height: 100
+                polygon: {
+                    nb_sides: 5
                 }
             },
             opacity: {
@@ -32,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 random: !1,
                 anim: {
                     enable: !1,
-                    speed: 3,
+                    speed: 1,
                     opacity_min: .1,
                     sync: !1
                 }
@@ -42,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 random: !0,
                 anim: {
                     enable: !1,
-                    speed: 1918081918081918,
+                    speed: 19.18081918081918,
                     size_min: .1,
                     sync: !1
                 }
@@ -50,13 +45,13 @@ document.addEventListener("DOMContentLoaded", function() {
             line_linked: {
                 enable: !0,
                 distance: 150,
-                color: "#000000",
+                color: "#000",
                 opacity: .4,
-                width: 3
+                width: 2
             },
             move: {
                 enable: !0,
-                speed: 3,
+                speed: 4,
                 direction: "none",
                 random: !0,
                 straight: !1,
