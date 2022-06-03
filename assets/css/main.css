@@ -4822,11 +4822,11 @@ a img {
 }
 
 #particles-js {
-    background: #eee;
+    background: #fff;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #eee, #eee);
+    background: -webkit-linear-gradient(to right, #fff, #fff);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #eee, #eee);
+    background: linear-gradient(to right, #fff, #fff);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     display: flex;
@@ -4868,7 +4868,7 @@ a img {
 @media only screen and (min-width:550px) {
     .header .site-title {
         margin: 0;
-        font-size: 100px
+        font-size: 60px
     }
 }
 
@@ -4882,7 +4882,7 @@ a img {
 
 @media only screen and (min-width:550px) {
     .header .site-description {
-        font-size: 40px
+        font-size: 22px;
     }
 }
 
@@ -4919,17 +4919,16 @@ a img {
     height: 20px;
     padding: 10px;
     border-radius: 50%;
-    border: 2px solid #000;
     transition: all .7s;
     width: 20px;
     font-size: 20px;
-    margin: 5px
+    margin: 1px;
 }
 
 .header-icons .icon:active,
 .header-icons .icon:hover {
     color: #FF8C19;
-    background: #eee
+    background: #000
 }
 
 @media only screen and (min-width:550px) {
@@ -5023,7 +5022,7 @@ a img {
 }
 
 @media only screen and (min-width:550px) {
-    #projects {
+
         width: 80%
     }
 }
@@ -5095,14 +5094,6 @@ a img {
     text-decoration: none;
     cursor: pointer;
     transition: color .3s ease-out, background-color .3s ease-out, border-color .3s ease-out
-}
-
-.project-link:active,
-.project-link:hover {
-    background-color: #FF8C19;
-    border-color: #FF8C19;
-    color: #eee;
-    transition: color .3s ease-in, background-color .3s ease-in, border-color .3s ease-in
 }
 
 .footer {
